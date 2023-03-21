@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portifolio</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="" alt="LOGO"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="offcanvas" href="#offcanvasExample" aria-controls="offcanvasExample">
+              Login
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header class="page-header gradient">
+    <div class="container pt-2">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-5">
+          <h2>Criado por Gefferson Teodoro</h2>
+          <p>
+            Exemplo de website responsivo.
+          </p>
+          <button type="button" class="btn btn-outline-success btn-lg">Contato</button>
+          <button type="button" class="btn btn-outline-warning btn-lg">Social</button>
+
+
+        </div>
+        <div class="col-md-6"><img src="img/email_campaign_monochromatic.svg" alt="Header imagem"></div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,64L48,74.7C96,85,192,107,288,128C384,149,480,171,576,160C672,149,768,107,864,122.7C960,139,1056,213,1152,208C1248,203,1344,117,1392,74.7L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>  
+  </header>
+  <section class="offcanvas2">
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Usuario</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <form>
+          <div class="row mb-3">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="inputEmail3">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Senha</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="inputPassword3">
+            </div>
+          </div>
+          <fieldset class="row mb-3">           
+            <div class="col-sm-6">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                <label class="form-check-label" for="gridRadios1">
+                  Lembrar-me
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                <label class="form-check-label" for="gridRadios2">
+                  Manter conectado
+                </label>
+              </div>  
+            </div>
+            <div class="col-sm-6 d-grid gap-2">
+              <button type="submit" class="btn btn-primary btn-lg">Entrar</button>
+            </div>
+          </fieldset>         
+        </form>
+      </div>
+    </div>
+  </section>
+  <section class="companies">
+    <div class="container text-center">
+      <div class="row g-5">
+        <div class="col-md-2"><img src="img/companies/1.png" alt="LOGO" class="img-fluid"></div>
+        <div class="col-md-2"><img src="img/companies/2.png" alt="LOGO" class="img-fluid"></div>
+        <div class="col-md-2"><img src="img/companies/3.png" alt="LOGO" class="img-fluid"></div>
+        <div class="col-md-2"><img src="img/companies/4.png" alt="LOGO" class="img-fluid"></div>
+        <div class="col-md-2"><img src="img/companies/5.png" alt="LOGO" class="img-fluid"></div>
+        <div class="col-md-2"><img src="img/companies/6.png" alt="LOGO" class="img-fluid"></div>
+      </div>
+    </div>
+
+  </section>
+  <section class="feature gradient">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L48,133.3C96,171,192,245,288,240C384,235,480,149,576,149.3C672,149,768,235,864,256C960,277,1056,235,1152,213.3C1248,192,1344,192,1392,192L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6"><img src="img/seo_monochromatic.svg" alt="LOGO"></div>
+        <div class="col-md-6">
+          <h1 class="my-2">Gefferson Teodoro de Souza</h1>
+          <p class="my-2">Exemplo de website responsivo.</p>
+          <ul>
+            <li>Melhores criações</li>
+            <li>Feito com a mais alta tecnologia</li>
+            <li>Super responsivo</li>
+            <li>Design criativo</li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L48,133.3C96,171,192,245,288,240C384,235,480,149,576,149.3C672,149,768,235,864,256C960,277,1056,235,1152,213.3C1248,192,1344,192,1392,192L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+  </section>
+  <section class="icons">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-4"><div class="icon gradient mb-4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+          <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z"/>
+          <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z"/>
+        </svg></div>
+        <h2>Feito por profissionais</h2>
+        <p>Nossa equipe</p>
+      </div>
+        <div class="col-md-4"><div class="icon gradient mb-4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-check-fill" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M15.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L12.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+          <path d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+        </svg></div>
+        <h2>Feito por profissionais</h2>
+        <p>Nossa equipe</p>
+      
+      </div>
+        <div class="col-md-4"><div class="icon gradient mb-4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-android" viewBox="0 0 16 16">
+          <path d="M2.76 3.061a.5.5 0 0 1 .679.2l1.283 2.352A8.94 8.94 0 0 1 8 5a8.94 8.94 0 0 1 3.278.613l1.283-2.352a.5.5 0 1 1 .878.478l-1.252 2.295C14.475 7.266 16 9.477 16 12H0c0-2.523 1.525-4.734 3.813-5.966L2.56 3.74a.5.5 0 0 1 .2-.678ZM5 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm6 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"/>
+        </svg></div>
+        <h2>Feito por profissionais</h2>
+        <p>Nossa equipe</p>
+      </div>
+      </div>
+    </div>
+  </section>
+  <section class="gallery">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220"><path fill="#fff" fill-opacity="1" d="M0,192L48,202.7C96,213,192,235,288,224C384,213,480,171,576,160C672,149,768,171,864,181.3C960,192,1056,192,1152,170.7C1248,149,1344,107,1392,85.3L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10">
+          <h1>Veja as nossas novidade</h1>
+          <p>Com grandes poderes vem grandes responsabilidades bla bla bla</p>
+        </div>
+      </div>
+      <div class="row my-3 g-3">
+        <div class="col-md-4"><img src="img/c1.jpg" class="img-fluid" alt=""></div>
+        <div class="col-md-4"><img src="img/c2.jpg" class="img-fluid" alt=""></div>
+        <div class="col-md-4"><img src="img/c3.jpg" class="img-fluid" alt=""></div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,192L48,202.7C96,213,192,235,288,224C384,213,480,171,576,160C672,149,768,171,864,181.3C960,192,1056,192,1152,170.7C1248,149,1344,107,1392,85.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+  </section>
+  <section class="services gradient">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,192L48,213.3C96,235,192,277,288,261.3C384,245,480,171,576,160C672,149,768,203,864,229.3C960,256,1056,256,1152,218.7C1248,181,1344,107,1392,69.3L1440,32L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-5">
+          <h1>Nós programamos</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti officiis beatae incidunt sint neque consequuntur minima eaque, repellat non voluptas praesentium odit ex perferendis doloribus quo culpa tempore soluta vitae.
+          </p>
+        </div>
+        <div class="col-md-5"><img src="img/coding_.svg" alt=""></div>
+        <div class="col-md-5"><img src="img/marketing.svg" alt=""></div>
+        <div class="col-md-5">
+          <h1>Nós promovemos</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti officiis beatae incidunt sint neque consequuntur minima eaque, repellat non voluptas praesentium odit ex perferendis doloribus quo culpa tempore soluta vitae.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <h1>Nós vendemos</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti officiis beatae incidunt sint neque consequuntur minima eaque, repellat non voluptas praesentium odit ex perferendis doloribus quo culpa tempore soluta vitae.
+          </p>
+        </div>
+        <div class="col-md-5"><img src="img/revenue_.svg" alt=""></div>
+
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,192L48,213.3C96,235,192,277,288,261.3C384,245,480,171,576,160C672,149,768,203,864,229.3C960,256,1056,256,1152,218.7C1248,181,1344,107,1392,69.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+  </section>
+  <section class="contact">
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-5">
+          <h1>Entre em contato</h1>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Comentário</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>                       
+          </div>
+          <div class="mb-3">
+            <button class="btn btn-primary" type="submit">Enviar</button> 
+          </div>    
+        </div>
+          <div class="col-md-5">       
+            <img src="img/handshake.svg" alt="LOGO">
+          </div>             
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="gradient">
+    <div class="container-fluid text-center">
+      <span>Feito com
+        <a href="https://getbootstrap.com"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-bootstrap" viewBox="0 0 16 16">
+          <path d="M5.062 12h3.475c1.804 0 2.888-.908 2.888-2.396 0-1.102-.761-1.916-1.904-2.034v-.1c.832-.14 1.482-.93 1.482-1.816 0-1.3-.955-2.11-2.542-2.11H5.062V12zm1.313-4.875V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762V8.162h1.822c1.236 0 1.887.463 1.887 1.348 0 .896-.627 1.377-1.811 1.377H6.375z"/>
+          <path d="M0 4a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4zm4-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3H4z"/>
+        </svg></a>
+      </span>
+    </div>
+  </footer>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
